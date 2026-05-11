@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptocurrencies - cryPIto</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+       <!-- Navigation Bar and Header -->
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="nav-logo">
+            <img src="../../assets/cryPIto logo.jpg" alt="cryPIto Logo" />
+            <div class="logo-text">cryPIto</div>
+        </div> 
+        <div class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        </div>
+        <ul class="nav-menu" id = "nav-menu">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="cryptocurrencies.html" class="nav-link">Cryptocurrencies</a></li>
+            <li><a href="learn.html" class="nav-link">Learn</a></li>
+            <li><a href="benefits.html" class="nav-link">Benefits</a></li>
+            <li><a href="register.html" class="nav-cya">Register</a></li>
+        </ul>
+    </div>
+</nav>
+
+      <section class="hot-coins">
+  <h2>🔥 Top 4 Hot Coins 🔥</h2>
+  <div class="coin-grid">
+    <div class="coin-card">
+      <img src="../../assets/Bitcoin.jpg" alt="Bitcoin" />
+      <h3>Bitcoin (BTC)</h3>
+      <p>Market Cap: $2.2T</p>
+      <p>Price: $111,000</p>
+    </div>
+    <div class="coin-card">
+      <img src="../../assets/Ethereum.jpg" alt="Ethereum" />
+      <h3>Ethereum (ETH)</h3>
+      <p>Market Cap: $321B</p>
+      <p>Price: $2,650</p>
+    </div>
+    <div class="coin-card">
+      <img src="../../assets/Tether.jpg" alt="Tether" />
+      <h3>Tether (USDT)</h3>
+      <p>Market Cap: $152.4B</p>
+      <p>Price: $1.00</p>
+    </div>
+    <div class="coin-card">
+      <img src="../../assets/XRP.jpg" alt="XRP" />
+      <h3>XRP (XRP)</h3>
+      <p>Market Cap: $142B</p>
+      <p>Price: $2.43</p>
+    </div>
+  </div>
+</section>
+
+    <section class="all-coins">
+  <h2>🪙 All Cryptocurrencies 🪙</h2>
+  <div class="coin-list">
+    <div class="coin-item">
+      <img src="../../assets/Bitcoin.jpg" alt="Bitcoin" />
+      <div class="coin-info">
+        <h4>Bitcoin (BTC)</h4>
+        <p>Market Cap: $2.2T</p>
+        <p>Price: $111,000</p>
+      </div>
+    </div>
+
+    <div class="coin-item">
+      <img src="../../assets/Ethereum.jpg" alt="Ethereum" />
+      <div class="coin-info">
+        <h4>Ethereum (ETH)</h4>
+        <p>Market Cap: $321B</p>
+        <p>Price: $2,650</p>
+      </div>
+    </div>
+
+    <div class="coin-item">
+      <img src="../../assets/Tether.jpg" alt="Tether" />
+      <div class="coin-info">
+        <h4>Tether (USDT)</h4>
+        <p>Market Cap: $152.4B</p>
+        <p>Price: $1.00</p>
+      </div>
+    </div>
+
+    <div class="coin-item">
+      <img src="../../assets/XRP.jpg" alt="XRP" />
+      <div class="coin-info">
+        <h4>XRP (XRP)</h4>
+        <p>Market Cap: $142B</p>
+        <p>Price: $2.43</p>
+      </div>
+    </div>
+
+    <div class="coin-item">
+      <img src="../../assets/Binance Coin.jpg" alt="Binance Coin" />
+      <div class="coin-info">
+        <h4>Binance Coin (BNB)</h4>
+        <p>Market Cap: $96.5B</p>
+        <p>Price: $685</p>
+      </div>
+    </div>
+
+    <div class="coin-item">
+      <img src="../../assets/Solana.jpg" alt="Solana" />
+      <div class="coin-info">
+        <h4>Solana (SOL)</h4>
+        <p>Market Cap: $93.25B</p>
+        <p>Price: $179</p>
+      </div>
+    </div>
+
+    <div class="coin-item">
+      <img src="../../assets/USD Coin.jpg" alt="USDC" />
+      <div class="coin-info">
+        <h4>United States Coin (USDC)</h4>
+        <p>Market Cap: $61B</p>
+        <p>Price: $1</p>
+      </div>
+    </div>
+
+    <div class="coin-item">
+      <img src="../../assets/Dogecoin.jpg" alt="Dogecoin" />
+      <div class="coin-info">
+        <h4>Dogecoin (DOGE)</h4>
+        <p>Market Cap: $36.17B</p>
+        <p>Price: $0.24</p>
+      </div>
+    </div>
+
+    <div class="coin-item">
+      <img src="../../assets/Cardano.jpg" alt="Cardano" />
+      <div class="coin-info">
+        <h4>Cardano (ADA)</h4>
+        <p>Market Cap: $28.3B</p>
+        <p>Price: $0.80</p>
+      </div>
+    </div>
+
+    <div class="coin-item">
+      <img src="../../assets/Tron.jpg" alt="Tron" />
+      <div class="coin-info">
+        <h4>Tron (TRX)</h4>
+        <p>Market Cap: $26.36B</p>
+        <p>Price: $0.27</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+   <section class="price-chart">
+      <h2>📈 Live Crypto Chart 📈</h2>
+      <div id="price-chart-widget-container"></div>
+
+      <noscript>
+        <p class="fallback-message">Please enable JavaScript to view the chart.</p>
+      </noscript>
+
+      <div id="offline-message" class="fallback-message">
+        Unable to load chart. Please check your internet connection.
+      </div>
+    </section>
+ 
+  <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>cryPIto</h3>
+                    <p>The world's most trusted cryptocurrency trading platform, providing luxury services to traders worldwide.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="cryptocurrencies.html">Cryptocurrencies</a></li>
+                        <li><a href="learn.html">Learn</a></li>
+                        <li><a href="benefits.html">Benefits</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">System Status</a></li>
+                        <li><a href="#">Security</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 cryPIto. All rights reserved.</p>
+            </div>
+            <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src = "../js/script.js"></script>
+</body>
+</html>
